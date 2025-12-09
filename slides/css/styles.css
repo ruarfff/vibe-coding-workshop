@@ -1,0 +1,180 @@
+/* Base styles */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    min-height: 740px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    color: #e8e8e8;
+}
+
+/* Fallback message */
+.fallback-message {
+    font-family: sans-serif;
+    line-height: 1.3;
+    width: 780px;
+    padding: 10px 10px 0;
+    margin: 20px auto;
+    border: 1px solid #e4c652;
+    border-radius: 10px;
+    background: #ffe;
+    color: #333;
+}
+
+.fallback-message p {
+    margin-bottom: 10px;
+}
+
+.impress-supported .fallback-message {
+    display: none;
+}
+
+/* Slide styles */
+.step {
+    position: relative;
+    width: 900px;
+    padding: 40px 60px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    font-size: 28px;
+    line-height: 1.6;
+    transition: opacity 0.3s;
+}
+
+.step.slide {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* Inactive slides */
+.impress-enabled .step {
+    margin: 0;
+    opacity: 0.3;
+    transition: opacity 0.5s;
+}
+
+.impress-enabled .step.active {
+    opacity: 1;
+}
+
+/* Typography */
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #667eea;
+}
+
+p {
+    margin: 20px 0;
+}
+
+.subtitle {
+    font-size: 32px;
+    text-align: center;
+    color: #a8b2d1;
+}
+
+.tagline {
+    font-size: 24px;
+    text-align: center;
+    color: #8892b0;
+    font-style: italic;
+}
+
+/* Lists */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin: 15px 0;
+}
+
+/* Code blocks */
+pre {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+    overflow-x: auto;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+code {
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 18px;
+    color: #64ffda;
+    line-height: 1.5;
+}
+
+/* Links */
+a {
+    color: #64ffda;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #9effed;
+    text-decoration: underline;
+}
+
+/* Resources section */
+.resources {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.resources p {
+    font-weight: 600;
+    color: #667eea;
+}
+
+.resources ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.resources li {
+    margin: 10px 0;
+}
+
+/* Help and toolbar */
+#impress-help {
+    font-size: 14px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 1024px) {
+    .step {
+        width: 90%;
+        padding: 30px 40px;
+        font-size: 24px;
+    }
+    
+    h1 {
+        font-size: 42px;
+    }
+    
+    h2 {
+        font-size: 32px;
+    }
+    
+    code {
+        font-size: 14px;
+    }
+}

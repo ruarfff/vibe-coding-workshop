@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Beads local files (database cache, daemon socket)
+.beads/beads.db
+.beads/beads.db-*
+.beads/bd.sock
+.beads/bd.pipe
+.beads/.exclusive-lock
+
+# Node.js (if we add npm packages later)
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
