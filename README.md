@@ -1,31 +1,31 @@
 # 🎸 Vibe Coding Workshop
 
-An interactive workshop designed to teach developers about agentic coding workflows and best practices.
+An interactive workshop that teaches you how to build software with AI assistants — no prior coding experience required!
 
 ## Overview
 
-This workshop teaches you how to effectively work with AI coding agents, leveraging tools like [Beads](https://github.com/steveyegge/beads) for issue tracking and memory management across coding sessions.
+In this workshop, you'll learn how to work alongside AI coding assistants (like Claude, Copilot, and others) to create software. Think of it like having a knowledgeable partner who can write code while you guide the direction. We'll also use [Beads](https://github.com/steveyegge/beads) — a simple tool that helps AI assistants remember what they're working on between sessions.
 
 ## Getting Started
 
-### Prerequisites
+### What You'll Need
 
-- A modern web browser (Chrome, Firefox, Safari)
-- [Beads](https://github.com/steveyegge/beads) CLI installed (`bd`)
-- An AI coding agent (Claude Code, Copilot, etc.)
+- A web browser (Chrome, Firefox, or Safari work best)
+- [Beads](https://github.com/steveyegge/beads) installed (we'll walk you through this!)
+- Access to an AI coding assistant (Claude, GitHub Copilot, or similar)
 
-### Running the Presentation
+### Viewing the Presentation
 
-Open the slides in your browser:
+The simplest way: just double-click `slides/index.html` to open it in your browser.
+
+Alternatively, if you have Python installed, you can run a local server (this ensures all features work correctly):
 
 ```bash
-# Using a simple HTTP server
 cd slides
 python3 -m http.server 8000
-# Then open http://localhost:8000 in your browser
 ```
 
-Or simply open `slides/index.html` directly in your browser.
+Then open your browser and go to: http://localhost:8000
 
 ### Navigation
 
@@ -48,27 +48,26 @@ vibe-coding-workshop/
 └── docs/               # Additional documentation (TBD)
 ```
 
-## Workshop Content
+## What You'll Learn
 
-1. **Introduction to Agentic Coding**
-   - What is agentic coding?
-   - Why use AI coding agents?
+1. **Introduction to AI-Assisted Building**
+   - What is "vibe coding"? (Hint: it's about collaboration, not memorizing syntax!)
+   - How AI assistants can help you create software
 
-2. **Beads Issue Tracker**
-   - Setting up Beads
-   - Creating and managing issues
-   - Dependency tracking
-   - Agent workflows
+2. **Giving Your AI a Memory (Beads)**
+   - Why AI assistants sometimes forget things
+   - How Beads helps your AI remember tasks and context
+   - Simple commands to track your project's progress
 
-3. **Hands-on Exercises**
-   - Setting up a new project with Beads
-   - Working with agents on multi-step tasks
-   - Session continuity and context management
+3. **Hands-on Practice**
+   - Start a new project with your AI assistant
+   - Work through multi-step tasks together
+   - Pick up where you left off in future sessions
 
-## Technologies Used
+## Tools We Use
 
-- **[impress.js](https://github.com/impress/impress.js)** - CSS3-powered presentation framework
-- **[Beads](https://github.com/steveyegge/beads)** - AI-native issue tracker for coding agents
+- **[impress.js](https://github.com/impress/impress.js)** - The engine behind our interactive presentation
+- **[Beads](https://github.com/steveyegge/beads)** - A memory system that helps AI assistants track tasks and progress
 
 ## Contributing
 
