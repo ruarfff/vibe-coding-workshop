@@ -1,6 +1,5 @@
 # Exercise 1: Building an App with Lovable.dev
 
-**Time:** 20 minutes
 **Goal:** Build a functional web app using only natural language
 **Requirements:** Browser, free Lovable.dev account
 
@@ -14,7 +13,7 @@ Lovable.dev is an AI-powered platform that creates full-stack web applications f
 
 ---
 
-## Getting Started (2 minutes)
+## Getting Started
 
 ### Step 1: Create an Account
 1. Go to [lovable.dev](https://lovable.dev)
@@ -27,7 +26,7 @@ Lovable.dev is an AI-powered platform that creates full-stack web applications f
 
 ---
 
-## Your Task (15 minutes)
+## Your Task
 
 ### Choose an App Idea
 
@@ -94,9 +93,8 @@ Once your app is built, you can keep adding features:
 
 ### ❌ Avoid This
 
-- Don't try to describe the entire app in one message
-- Don't use technical jargon (unless you know it well)
-- Don't get frustrated if it's not perfect — just ask for changes
+- Describing the entire app in one message can make things harder to track
+- Don't get too frustrated if it doesn't turn out right — just ask for changes or start again
 
 ---
 
@@ -128,7 +126,7 @@ Once you're happy with your app:
 
 1. Click the **Share** button
 2. Copy the link
-3. Share it with colleagues or save it for later
+3. Share or save it for later
 
 Your app is deployed and accessible from any browser!
 
@@ -141,18 +139,6 @@ After completing the exercise, reflect on:
 1. How was this different from your expectations?
 2. What surprised you about the process?
 3. What would you build with more time?
-4. Where do you see yourself using this at work?
-
----
-
-## Troubleshooting
-
-| Problem | Solution |
-|---------|----------|
-| Page won't load | Try refreshing, check internet connection |
-| App build is stuck | Wait a moment; if > 2 min, try rephrasing your request |
-| Feature doesn't work | Describe the bug: "When I click X, nothing happens" |
-| Design looks wrong | Be specific: "Make the buttons larger" or "Add more padding" |
 
 ---
 
@@ -160,7 +146,6 @@ After completing the exercise, reflect on:
 
 Now that you've built an app with Lovable, you're ready for:
 
-- **Exercise 2:** GitHub Copilot — have AI implement features in a real codebase
+- **Exercise 2:** GitHub Copilot — have AI implement features in a codebase
 - **Exercise 3:** Snowflake SQL — generate database queries from natural language
 
-[← Back to Workshop Outline](workshop-outline.md)

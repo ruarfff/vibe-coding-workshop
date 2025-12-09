@@ -1,6 +1,5 @@
-# Exercise 2: GitHub Copilot for Non-Developers
+# Exercise 2: GitHub Copilot
 
-**Time:** 25 minutes
 **Goal:** Create GitHub issues that AI automatically implements
 **Requirements:** GitHub account, access to workshop repository
 
@@ -37,13 +36,15 @@ GitHub Copilot can do more than help developers write code — it can implement 
 
 ---
 
-## Getting Started (5 minutes)
+## Getting Started
 
-### Step 1: Access the Repository
-Go to: `https://github.com/ch-robinson-internal/Workshop.Ruairi.UI`
+### Step 1: Access your Repository
+
+You will need to have created a ReactUI project form our template.
 
 ### Step 2: Navigate to Issues
 Click the **Issues** tab at the top of the repository
+
 
 ### Step 3: Create a New Issue
 Click the green **New Issue** button
@@ -111,7 +112,6 @@ Create a navigation header component that appears at the top of every page.
 Create a footer component that displays at the bottom of every page.
 
 ## Requirements
-- Show copyright text: "© 2025 C.H. Robinson"
 - Add links to "Privacy Policy" and "Terms of Service" (can be placeholder # links)
 - The footer should stick to the bottom of the viewport
 ```
@@ -229,7 +229,7 @@ Create a new `/contact` route with a contact form.
 
 ---
 
-## Your Task (15 minutes)
+## Your Task
 
 ### Step 1: Choose 1-2 Issues
 Pick from the examples above or create your own
@@ -318,5 +318,3 @@ After the exercise, consider:
 Now that you've seen AI implement features from issues:
 
 - **Exercise 3:** Snowflake SQL — generate database queries from natural language
-
-[← Back to Workshop Outline](workshop-outline.md)
