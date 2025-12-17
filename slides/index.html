@@ -24,281 +24,143 @@
 
     <div id="impress" data-transition-duration="1000">
 
-        <!-- ==================== SECTION 1: OPENING (10 min) ==================== -->
+        <!-- ==================== SECTION 1: INTRO (5 min) ==================== -->
 
         <!-- Title Slide -->
         <div id="title" class="step slide" data-x="0" data-y="0" data-scale="1">
             <h1>🎸 Vibe Coding Workshop</h1>
-            <p class="subtitle">Build Software with Coding Agents</p>
-        </div>
-
-        <!-- What You'll Learn -->
-        <div id="intro" class="step slide" data-x="1500" data-y="0">
-            <h2>What You'll Learn Today</h2>
-            <ul>
-                <li>🎯 What "vibe coding" is</li>
-                <li>🧠 How LLMs think — and their limitations</li>
-                <li>🛠️ Build a real app with Lovable.dev</li>
-                <li>🤖 Create GitHub issues that GitHub Copilot implements for you</li>
-                <li>📊 Write SQL queries using natural language</li>
-            </ul>
+            <p class="subtitle">Build Software Through Conversation</p>
         </div>
 
         <!-- What is Vibe Coding -->
-        <div id="what-is-vibe" class="step slide" data-x="3000" data-y="0">
+        <div id="what-is-vibe" class="step slide" data-x="1500" data-y="0">
             <h2>What is Vibe Coding?</h2>
-            <p class="subtitle">A term coined by <a
-                    href="https://x.com/karpathy/status/1886192184808149383?lang=en">Andrej Karpathy (Feb 2025)</a></p>
+            <p class="subtitle">Coined by <a
+                    href="https://x.com/karpathy/status/1886192184808149383?lang=en">Andrej Karpathy</a> (Feb 2025)</p>
             <blockquote>
                 "You fully give in to the vibes, embrace exponentials, and forget that the code even exists."
             </blockquote>
-            <p class="tagline">Also see <a href="https://www.thewayofcode.com/">The Way of Code</a></p>
+            <p class="tagline">Describe what you want. The agent writes the code.</p>
         </div>
 
-        <!-- Conversation Not Commands -->
-        <div id="conversation" class="step slide" data-x="4500" data-y="0">
-            <h2>💬 Conversation, Not Commands</h2>
+        <!-- The Power -->
+        <div id="the-power" class="step slide" data-x="3000" data-y="0">
+            <h2>🚀 The Power</h2>
             <ul>
-                <li>Vibe coding is a <strong>dialogue</strong>, not a contract</li>
-                <li>Problem-solving conversations are messy, productive, and fun</li>
-                <li>Don't spend hours perfecting prompts — just iterate</li>
-                <li>Coding Agents make many mistakes but are very tolerant of <em>your</em> mistakes too</li>
+                <li>Agents have read <strong>almost everything</strong> on the internet</li>
+                <li>Know every framework, language, and best practice</li>
+                <li>Turn your ideas into working software in minutes</li>
+                <li>No syntax to memorize, no setup to configure</li>
             </ul>
-            <p class="tagline">Think: collaborative back and forth with a machine, not just feeding it instructions</p>
+            <p class="tagline">You focus on <em>what</em>. The agent handles <em>how</em>.</p>
         </div>
 
-        <!-- AI Makes Mistakes -->
-        <div id="ai-mistakes" class="step slide" data-x="6000" data-y="0">
-            <h2>🤷 Coding Agents Will Make Mistakes</h2>
-            <p class="subtitle">...and that's okay!</p>
+        <!-- The Catch -->
+        <div id="the-catch" class="step slide" data-x="4500" data-y="0">
+            <h2>🎯 The Catch</h2>
             <ul>
-                <li>Expect errors — they're part of the process</li>
-                <li>The agent learns from corrections</li>
-                <li>Each iteration gets you closer to what you want</li>
-                <li>You don't need to get it right the first time</li>
+                <li>Agents can't read your mind — be <strong>specific</strong></li>
+                <li>They optimize for "looking helpful" — verify the output</li>
+                <li>They make mistakes — iterate, don't panic</li>
+                <li>They do the <strong>minimum</strong> unless pushed for more</li>
             </ul>
+            <p class="tagline">It's a conversation: messy, iterative, productive.</p>
         </div>
 
-        <!-- Business Value -->
-        <div id="business-value" class="step slide" data-x="7500" data-y="0">
-            <h2>💼 Why This Matters for Business</h2>
+        <!-- The Sweet Spot -->
+        <div id="sweet-spot" class="step slide" data-x="6000" data-y="0">
+            <h2>🎯 The Sweet Spot</h2>
+            <p class="subtitle">Where vibe coding shines</p>
             <ul>
-                <li>🚀 <strong>Speed to Prototype:</strong> Quickly test more ideas</li>
-                <li>📝 <strong>Better Specs:</strong> "Coding" is a great specification language</li>
-                <li>🔓 <strong>Unblocking:</strong> Less handoff of work based on expertise</li>
+                <li>✅ Prototypes and proofs of concept</li>
+                <li>✅ Internal tools and automations</li>
+                <li>✅ Exploring ideas before committing resources</li>
+                <li>✅ Learning by building</li>
             </ul>
+            <p class="tagline">Production systems still need engineering rigor.</p>
         </div>
 
-        <!-- When to Call Engineering -->
-        <div id="call-engineering" class="step slide" data-x="9000" data-y="0">
-            <h2>Solid Engineering is Still Essential</h2>
-            <p class="subtitle">The limits of Vibe Coding</p>
-            <ul>
-                <li>🔒 <strong>Security &amp; Compliance:</strong> Handling sensitive customer data</li>
-                <li>📈 <strong>Production Scaling:</strong> Making sure the data flows</li>
-                <li>🕸️ <strong>Complex Integrations:</strong> For example, connecting legacy systems</li>
-            </ul>
-            <p class="tagline">What agents can do was always the easy part</p>
-        </div>
-
-        <!-- ==================== SECTION 2: AI KNOWLEDGE (10 min) ==================== -->
-
-        <!-- What AI Knows -->
-        <div id="ai-knowledge" class="step slide" data-x="0" data-y="1200">
-            <h2>🌐 What Coding Agents Know</h2>
-            <ul>
-                <li>Agents have read almost <strong>everything</strong> on the internet</li>
-                <li>Knows how to use most tools, frameworks, and languages</li>
-                <li>Has seen millions of code examples and patterns</li>
-                <li>Encyclopedic knowledge of best practices</li>
-            </ul>
-            <p class="tagline">But there's a catch...</p>
-        </div>
-
-        <!-- AI Cannot Read Minds -->
-        <div id="ai-limits" class="step slide" data-x="1500" data-y="1200">
-            <h2>🔮 Coding Agents Cannot Read Your Mind</h2>
-            <ul>
-                <li>Be <strong>precise</strong> about the problem you want to solve</li>
-                <li>Agents are optimized for appearing helpful and "getting things done"</li>
-                <li>Sometimes it will pretend something was done</li>
-                <li>Defaults to <strong>bare-minimum</strong> implementations unless pushed</li>
-            </ul>
-            <p class="tagline">You get the quality you <em>ask</em> for</p>
-        </div>
-
-        <!-- Quality Checklist -->
-        <div id="quality-checklist" class="step slide" data-x="3000" data-y="1200">
-            <h2>✅ The Quality Checklist</h2>
-            <p class="subtitle">From "Vibe Coding" by Gene Kim &amp; Steve Yegge</p>
-            <ul>
-                <li>🍼 <strong>Count your babies:</strong> Verify every component was delivered</li>
-                <li>🧁 <strong>Check for cardboard muffins:</strong> Look beyond passing tests</li>
-                <li>⭐ <strong>Demand excellence explicitly:</strong> Specify quality standards</li>
-                <li>🧹 <strong>Clean as you go:</strong> Build cleanup into every task</li>
-            </ul>
-        </div>
-
-        <!-- Trust But Verify -->
-        <div id="trust-verify" class="step slide" data-x="4500" data-y="1200">
-            <h2>🔍 Trust But Verify</h2>
-            <ul>
-                <li>"Working" code can mask deeper quality issues</li>
-                <li>Immediate gratification can cost you later</li>
-                <li>The agent paradox: knows best practices, defaults to minimum</li>
-                <li>Always review what the agent produces</li>
-            </ul>
-            <p class="tagline">The agent is your sous chef, not the head chef</p>
-        </div>
-
-        <!-- Handling Errors -->
-        <div id="errors" class="step slide" data-x="6000" data-y="1200">
+        <!-- When Things Go Wrong -->
+        <div id="errors" class="step slide" data-x="7500" data-y="0">
             <h2>🚨 When Things Go Wrong</h2>
             <ul>
                 <li>📋 <strong>Copy and paste</strong> error messages to the agent</li>
-                <li>📸 <strong>Screenshot</strong> visual errors for the agent to see</li>
+                <li>📸 <strong>Screenshot</strong> visual bugs — agents can see images</li>
                 <li>Describe what you <em>expected</em> vs what happened</li>
-                <li>Don't try to debug yourself — let the agent help</li>
+                <li>Don't debug yourself — let the agent iterate</li>
             </ul>
-            <p class="tagline">Errors are just conversation starters</p>
+            <p class="tagline">Errors are just conversation starters.</p>
         </div>
 
 
 
-        <!-- ==================== SECTION 4: LOVABLE EXERCISE (20 min) ==================== -->
+        <!-- ==================== EXERCISES ==================== -->
 
-        <!-- Exercise 1 Intro -->
-        <div id="exercise1-intro" class="step slide" data-x="1500" data-y="2400">
+        <!-- Exercise 1: Lovable -->
+        <div id="exercise1" class="step slide" data-x="0" data-y="1200">
             <h2>🧪 Exercise 1: Lovable.dev</h2>
-            <p class="subtitle">Build an app in 20 minutes — no setup required</p>
-            <ul>
-                <li>Go to <a href="https://lovable.dev">lovable.dev</a></li>
-                <li>Create a free account</li>
-                <li>Describe an app idea in plain English</li>
-                <li>Watch the agent build it for you live</li>
-            </ul>
-        </div>
-
-        <!-- Exercise 1 Ideas -->
-        <div id="exercise1-ideas" class="step slide" data-x="3000" data-y="2400">
-            <h2>💡 App Ideas to Try</h2>
-            <ul>
-                <li>📝 A personal to-do list with categories</li>
-                <li>🎂 Birthday reminder app for friends &amp; family</li>
-                <li>📊 Simple expense tracker</li>
-                <li>🎯 Habit tracker with streaks</li>
-                <li>📖 Recipe collection organizer</li>
-                <li>🌤️ Weather dashboard for your city</li>
-            </ul>
-            <p class="tagline">Pick one and describe it to the agent!</p>
-        </div>
-
-        <!-- ==================== SECTION 5: GITHUB COPILOT EXERCISE (25 min) ==================== -->
-
-        <!-- Exercise 2 Intro -->
-        <div id="exercise2-intro" class="step slide" data-x="4500" data-y="2400">
-            <h2>🤖 Exercise 2: GitHub Copilot</h2>
-            <p class="subtitle">The agent implements your ideas while you wait</p>
-            <ul>
-                <li>Write a GitHub Issue describing what you want</li>
-                <li>Assign it to Copilot</li>
-                <li>The agent creates a branch and implements it</li>
-                <li>Review the Pull Request (Proposing a change) it opens</li>
-            </ul>
-            <p class="tagline">No coding, no terminal, no dev environment needed!</p>
-        </div>
-
-        <!-- Exercise 2 How It Works -->
-        <div id="exercise2-workflow" class="step slide" data-x="6000" data-y="2400">
-            <h2>⚙️ How It Works</h2>
+            <p class="subtitle">Build an app in 20 minutes</p>
             <ol>
-                <li><strong>Open GitHub:</strong> Go to your repository</li>
-                <li><strong>Create Issue:</strong> Click "New Issue"</li>
-                <li><strong>Describe:</strong> Write what you want in plain English</li>
-                <li><strong>Assign:</strong> Add <code>@copilot</code> as assignee</li>
-                <li><strong>Wait:</strong> The agent works on it (usually 2-5 min)</li>
-                <li><strong>Review:</strong> Check the Pull Request</li>
+                <li>Go to <a href="https://lovable.dev">lovable.dev</a> and create an account</li>
+                <li>Describe an app: todo list, expense tracker, habit tracker...</li>
+                <li>Watch it build. Then iterate: "make it prettier", "add categories"</li>
             </ol>
+            <p class="tagline">Ideas: birthday reminders, recipe organizer, workout log</p>
         </div>
 
-        <!-- Exercise 2 Examples -->
-        <div id="exercise2-examples" class="step slide" data-x="7500" data-y="2400">
-            <h2>📝 Example Issues to Create</h2>
-            <ul>
-                <li>"Add a navigation header with Home and About links"</li>
-                <li>"Add a footer with copyright text"</li>
-                <li>"Change the primary button color from blue to green"</li>
-                <li>"Add a loading spinner while data is fetching"</li>
-                <li>"Create a Contact Us page with a feedback form"</li>
-            </ul>
-            <p class="tagline">See docs/exercise-copilot.md for detailed examples</p>
+        <!-- Exercise 2: GitHub Copilot -->
+        <div id="exercise2" class="step slide" data-x="1500" data-y="1200">
+            <h2>🤖 Exercise 2: GitHub Copilot</h2>
+            <p class="subtitle">Write issues, get code</p>
+            <ol>
+                <li>Open a GitHub repo → Create Issue</li>
+                <li>Describe what you want in plain English</li>
+                <li>Assign to <code>@copilot</code></li>
+                <li>Review the Pull Request it creates</li>
+            </ol>
+            <p class="tagline">No terminal. No IDE. Just describe and review.</p>
         </div>
 
-        <!-- ==================== SECTION 6: SNOWFLAKE EXERCISE (15 min) ==================== -->
-
-        <!-- Exercise 3 Intro -->
-        <div id="exercise3-intro" class="step slide" data-x="0" data-y="3600">
+        <!-- Exercise 3: Snowflake -->
+        <div id="exercise3" class="step slide" data-x="3000" data-y="1200">
             <h2>❄️ Exercise 3: Snowflake SQL</h2>
             <p class="subtitle">Query databases without knowing SQL</p>
             <ul>
                 <li>Describe the data you want in plain English</li>
-                <li>The agent generates the SQL query for you</li>
-                <li>Review, run, and iterate</li>
+                <li>The agent generates the SQL</li>
+                <li>Run it, review it, iterate</li>
             </ul>
-            <p class="tagline">Ask for what you need, not how to get it</p>
+            <p class="tagline">"Find all pending orders from last month"</p>
         </div>
 
-        <!-- Exercise 3 Examples -->
-        <div id="exercise3-examples" class="step slide" data-x="1500" data-y="3600">
-            <h2>💬 Example Prompts</h2>
-            <ul>               
-                <li>"Find all orders from last month that are still pending"</li>                
-            </ul>
-            <p class="tagline">The agent knows SQL — you just describe the business question</p>
-        </div>
-
-        <!-- Exercise 3 Placeholder -->
-        <div id="exercise3-hands-on" class="step slide" data-x="3000" data-y="3600">
-            <h2>🔧 Hands-On Practice</h2>            
-            <ul>
-                <li>We'll use a sample dataset together</li>
-                <li>Practice describing queries in natural language</li>
-                <li>See how the agent translates to SQL</li>
-                <li>Learn to iterate and refine results</li>
-            </ul>
-        </div>
-
-        <!-- ==================== SECTION 7: CLOSING (5 min) ==================== -->
-
-        <!-- ==================== THE FUTURE (5 min) ==================== -->
-
-        <!-- The Future -->
-        <div id="future" class="step slide" data-x="4500" data-y="3600" data-rotate-z="5">
-            <h2>🚀 The Future of Coding Agents</h2>
-            <ul>
-                <li>⏳ <strong>Async Remote Agents:</strong> Agents work while you sleep</li>
-                <li>🔗 <strong>Clusters of Agents:</strong> Multiple agents collaborating</li>
-                <li>👔 <strong>Supervisor Agents:</strong> Agents managing other agents</li>
-                <li>🕸️ <strong>Agent Meshes:</strong> Networks of specialized agents</li>
-            </ul>
-            <p class="tagline">We're just at the beginning...</p>
-        </div>
+        <!-- ==================== CLOSING ==================== -->
 
         <!-- Key Takeaways -->
-        <div id="takeaways" class="step slide" data-x="6000" data-y="3600">
-            <h2>🎯 Key Takeaways</h2>
+        <div id="takeaways" class="step slide" data-x="4500" data-y="1200">
+            <h2>🎯 Takeaways</h2>
             <ul>
-                <li>✅ Vibe coding is a <strong>conversation</strong>, not a command</li>
-                <li>✅ Agents make mistakes — iterate and refine</li>
-                <li>✅ Be specific about what you want</li>
-                <li>✅ Trust but verify — check the output</li>
-                <li>✅ You don't need to code to build software</li>
+                <li><strong>Describe, don't code</strong> — focus on what, not how</li>
+                <li><strong>Iterate freely</strong> — mistakes are cheap to fix</li>
+                <li><strong>Be specific</strong> — you get what you ask for</li>
+                <li><strong>Verify output</strong> — agents optimize for helpfulness</li>
+                <li><strong>Know the limits</strong> — great for PoCs, not production</li>
             </ul>
+        </div>
+
+        <!-- Resources -->
+        <div id="resources" class="step slide" data-x="6000" data-y="1200">
+            <h2>📚 Resources</h2>
+            <ul>
+                <li><a href="https://www.thewayofcode.com/">The Way of Code</a> — Steve Yegge</li>
+                <li><a href="https://lovable.dev">Lovable.dev</a> — Build apps with AI</li>
+                <li><a href="https://github.com/features/copilot">GitHub Copilot</a> — AI pair programming</li>
+            </ul>
+            <p class="tagline">Go build something.</p>
         </div>
 
 
         <!-- Overview - Shows all slides -->
-        <div id="overview" class="step" data-x="3000" data-y="1800" data-z="0" data-scale="8">
+        <div id="overview" class="step" data-x="3000" data-y="600" data-z="0" data-scale="6">
         </div>
 
     </div>
